@@ -1,0 +1,129 @@
+/* Landscape Form Styles */
+form {
+    max-width: 600px; /* Set the maximum width for the form to keep it landscape-oriented */
+    margin: 50px auto; /* Center the form horizontally */
+    padding: 50px 230px 50px 230px;
+    background-color: #f4f4f4;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e87d3;
+}
+
+/* Styles for Submit Button */
+input[type="submit"] {
+    display: inline-block;
+    margin: 20px auto 0; /* Adjust the top margin as needed */
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e87d3;
+}
+
+/* Styles for Reset Button */
+input[type="reset"] {
+    display: inline-block;
+    margin: 20px 10px 0 0; /* Adjust the top margin and spacing as needed */
+    padding: 10px 20px;
+    background-color: #ccc; /* Lighter color */
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Footer Section Styles */
+.footer {
+    background-color: #222;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+    padding: 30px 0;
+    /* Add padding to top and bottom */
+    text-align: center;
+    /* Center align text */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    /* Space out the footer content */
+    align-items: center;
+    /* Center vertically */
+}
+
+.footer-logo img {
+    max-width: 100px;
+    /* Limit the logo width */
+}
+
+.footer-contact p {
+    font-size: 16px;
+    /* Contact info font size */
+    margin: 10px 0;
+    /* Add spacing between contact info lines */
+}
+
+.footer-social a {
+    font-size: 20px;
+    /* Social media link font size */
+    color: #fff;
+    /* Link text color */
+    text-decoration: none;
+    margin: 0 10px;
+    /* Add spacing between social media links */
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+    /* Underline links on hover */
+}

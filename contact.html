@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <link href="contact.css" rel="stylesheet">
+   
+</head>
+
+<body>
+  
+
+    <h3 class="contact-us">.Contact Us.</h3>
+    <form action="process_contact_form.php" method="POST">
+        <label for="purpose">Select Purpose for Contact:</label>
+        <select id="purpose" name="purpose">
+            <option value="photography">book halwai</option>
+            <option value="cinematography">required partner</option>
+            <option value="product_shoot">Worldwide Cuisines </option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="details">Further Details (if 'Other' selected):</label>
+        <input type="text" id="details" name="details">
+
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Address to Visit:</label>
+        <textarea id="address" name="address" rows="3"></textarea>
+
+        <label for="query">Any Queries or Questions:</label>
+        <textarea id="query" name="query" rows="5"></textarea>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+     <!-- Footer Section -->
+     <footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="marathi.jpeg" alt="Lakshya Films Logo">
+                </div>
+                <div class="footer-contact">
+                    <p><strong>mail-id:</strong> info@halwai.com</p>
+                    <p><strong>Phone:</strong> +9691441661</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/Tattvamasifilms07/" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com/lakshyafilms" target="_blank">Twitter</a>
+                    <a href="https://www.instagram.com/tattvamasi_films/" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </footer>
+
+    </footer>
+
+</body>
+
+</html>

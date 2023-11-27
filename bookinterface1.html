@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now Form 1</title>
+    <link href="interface1.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Book Now</h1>
+    <h2>Some Details</h2> 
+    <form action="process.php" method="post">
+        <label for="people">Number of People Required:</label>
+        <select id="people" name="people">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+          <a href="#" onclick="alert('our team will contact you by today')">Book Appointment</a>
+          <br><br>
+          <label for="guests">Number of Guests in the Party:</label>
+          <input type="number" id="guests" name="guests" min="1" max="100">
+          <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+  
+</body>
+</html>
